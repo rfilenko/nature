@@ -1,0 +1,99 @@
+.jumbotron {
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: cover; 
+    height: 85vh;
+    padding-top: 20%;
+    border-radius: 0;
+}
+.nav-item a,.btn-primary  {
+    text-transform: uppercase;
+}
+.navbar-nav button {
+    margin-top: -7px;
+}
+
+#search {
+    float: right;
+    padding: 2em 0 0 2em;
+    cursor: pointer;
+    margin-top: -25px;
+}
+.cards-section {
+margin-top: 1%;
+}
+.btn {
+    border-radius: 0;
+}
+.card-block {
+    padding: .5rem;
+}
+.dropdown {
+   background: url('../img/where-we-work-bg.jpg') center no-repeat;
+    margin: 0 2%;
+    background-size: cover; 
+    height: 60vh; 
+    padding-top: 10%;
+}
+.dropdown h4 {
+    padding-top: -2%;
+}
+.foo {
+    background-color: #363636;
+     height: 55vh; 
+}
+.foo li,.foo li a  {
+    font-size: 0.93em;
+    color: #fff;
+}
+.foo ul {
+    list-style-type: none;
+}
+.foo ul li:first-child {
+    font-weight: bold;
+}
+.img1 {
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+hr {
+    background-color: #ccc;
+}
+.section1 img, .section2 p.lead {
+    padding-top: 15%;
+}
+.img-section1 img {
+    height: 64vh;
+    padding-right: 2%;
+    
+}
+.img-section2 {
+    height: 64vh;
+    padding-left: 5%;
+}
+.text-section {
+    padding-left: 7%;
+    width: 94%;
+}
+
+
+/*footer */
+.global {
+    padding-bottom: 3%;
+}
+.footer {
+    background-color: #1C1B1B;
+}
+.footer_down {
+    color: #6D6C6C;
+    font-size: .92rem;
+    padding: 2% 6.5% 0 6.5%;
+}
+.footer_middle {
+    color: #F4F4F4;
+    padding-bottom: 3%;
+}
+.footer_down a, .footer_middle a {
+    color: white;
+}
