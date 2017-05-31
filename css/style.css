@@ -5,6 +5,18 @@
     padding-top: 20%;
     border-radius: 0;
 }
+
+@media only screen and (max-width: 668px) { 
+	.jumbotron {
+     height: auto; 
+     padding-top: 0; 
+}
+}
+
+img {
+	max-width: 100%;    
+}
+
 .nav-item a,.btn-primary  {
     text-transform: uppercase;
 }
@@ -37,6 +49,15 @@ margin-top: 1%;
 .dropdown h4 {
     padding-top: -2%;
 }
+@media only screen and (max-width: 668px) { 
+	.dropdown {
+	   margin: 0 2%; 
+	   height: auto; 
+	   padding: 20% 0 15%;
+	}
+}
+
+
 .foo {
     background-color: #363636;
      height: 55vh; 
@@ -72,6 +93,29 @@ hr {
     height: 64vh;
     padding-left: 5%;
 }
+@media only screen and (max-width: 668px) {
+	.img-section1 img {
+		margin-top: 2rem;
+		max-width: 100%;
+		height: auto;
+		padding: 2%;	    
+	}
+	.img-section2 {
+	    height: auto;
+	    padding: 5%;
+	}
+	.img-section2 img {
+		max-width: 100%;
+		height: auto;	    
+	}
+	.section2 p.lead {
+     padding-top: 0; 
+	}
+	.section2 {
+		padding-bottom: 2rem;
+	}
+}
+
 .text-section {
     padding-left: 7%;
     width: 94%;
@@ -96,4 +140,16 @@ hr {
 }
 .footer_down a, .footer_middle a {
     color: white;
+}
+@media only screen and (max-width: 668px) {
+	.foo {
+    height: auto; 
+	}
+	.foo a img {
+		margin: 15px 11%;
+	}
+	.footer_down {
+	    font-size: 0.7rem;
+	    padding: 8% 2.5% 0 0.5%;
+	}
 }
